@@ -2028,6 +2028,9 @@ label{
     margin-top: 8px;
   }
   /* section-5 */
+  .appointment-box{
+    width: 375px;
+  }
   .appointment-container{
     width: 280px;
     border-radius: 10px;
@@ -2225,7 +2228,7 @@ label{
     font-size: 15px;
   }
   .socials{
-    width: 160px;
+    width: 140px;
   }
   .facebook-img,
   .instagram-img,
@@ -2239,12 +2242,11 @@ label{
   .footer-box p{
     font-size: 15px;
     width: 190px;
-    padding-right: 20px;
     text-align: right;
   }
   .hr-3{
     width: 170px;
-    margin-right: 50px;
+    margin-right: 10px;
   }
   .footer-link-left a{
     font-size: 15px;
