@@ -1872,7 +1872,9 @@ label{
     margin-left: 4px;
   }
   .nav-right{
-    margin-left: 250px;
+    width: 0px;
+    display: block;
+    margin-left: 270px;
   }
   .search{
     display: none;
