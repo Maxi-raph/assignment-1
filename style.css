@@ -93,7 +93,7 @@ nav ul li a{
 .main-container{
     background-image: url("Mentorship Projects/Rectangle 6.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:cover;
     object-fit: fill;
     padding-bottom: 160px;
 }
@@ -1821,7 +1821,9 @@ label{
     grid-template-columns: repeat(1,1fr);
    }
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:480px){
+  /* section-1 */
+
   /* section-2 */
   .section-2{
     padding: 0;
@@ -2059,12 +2061,12 @@ label{
   .specialists-box-1,
   .specialists-box-2{
     padding-top: 10px;
-    width: 260px;
+    width: 240px;
     height: 200px;
   }
   .specialists-box-3,
   .specialists-box-4{
-    width: 260px;
+    width: 240px;
     height: 200px;
     padding-bottom: 10px;
   }
@@ -2075,6 +2077,99 @@ label{
     width: 180px;
     border-radius: 0px;
     height: 140px;
+  }
+  .specialists-box-1 a,
+  .specialists-box-2 a,
+  .specialists-box-3 a,
+  .specialists-box-4 a{
+    font-size: 15px;
+  }
+  /* section-8 */
+  .section-8 h3{
+    font-size: 30px;
+  }
+  .section-8-box-1,
+  .section-8-box-2{
+    width: 300px;
+  }
+  .blog-img-1,
+  .blog-img-2{
+    width: 260px;
+    height: 140px;
+  }
+  .section-8-box-1 p,
+  .section-8-box-2 p{
+    font-size: 15px;
+    width: 260px;
+  }
+  .section-8-box-1 h4,
+  .section-8-box-2 h4{
+    font-size: 20px;
+    width: 280px;
+  }
+  .see-more p{
+    font-size: 15px; 
+  }
+  .see-more span{
+    width: 8px;
+    height: 2px;
+    border-radius: 1px;
+  }
+  .see-more span::before{
+    top: -28px;
+  }
+  .see-more span::after{
+    top: -41px;
+  }
+  .caret-btn-2:checked~ .caret-icon-2 span::before{
+    top: -25px;
+    right: 0px;
+  } 
+  .caret-btn-2:checked~ .caret-icon-2 span::after{
+    top: -42px;
+  }
+  /* section-9 */
+  .first-container{
+
+  }
+  .logo-footer{
+    
+  }
+  .logo-footer-img{
+    width: 60px;
+    height: 60px;
+  }
+  .logo-footer-img p{
+    font-size: 15px;
+  }
+  .socials{
+    width: 160px;
+  }
+  .facebook-img,
+  .instagram-img,
+  .twitter-img{
+    width: 40px;
+    height: 40px;
+  }
+  .footer-box{
+    margin-top: 200px;
+  }
+  .footer-box p{
+    font-size: 15px;
+    width: 190px;
+    padding-right: 10px;
+    text-align: right;
+  }
+  .footer-link-left a{
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .footer-link-right a{
+    font-size: 15px;
+    padding-right: 10px;
+  }
+  .footer-bottom p{
+    font-size: 15px;
   }
 }
 
