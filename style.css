@@ -1841,7 +1841,7 @@ label{
   } 
   nav ul{
     position: absolute;
-    top: 25px;
+    top: 20px;
     left: 27px;
   }
   .nav-link-1{
@@ -1872,7 +1872,7 @@ label{
     margin-left: 4px;
   }
   .nav-right{
-    margin-left: 270px;
+    margin-left: 260px;
   }
   .search{
     display: none;
