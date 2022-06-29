@@ -1823,7 +1823,82 @@ label{
 }
 @media screen and (max-width:480px){
   /* section-1 */
-
+  nav{
+    justify-content: flex-start;
+    position: relative;
+  }
+  .logo-area{
+    display: block;
+    margin-left: 10px;
+  }
+  .logo{
+    width: 30px;
+    height: 30px;
+  }
+  .logo-area p{
+    font-size:10px;
+    width: 60px;
+  } 
+  nav ul{
+    position: absolute;
+    top: 25px;
+    left: 27px;
+  }
+  .nav-link-1{
+    font-size: 15px;
+    width: 90px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .nav-link-2{
+    font-size: 15px;
+    width: 70px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 4px;
+  }
+  .nav-link-3{
+    font-size: 15px;
+    width: 30px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 4px;
+  }
+  .nav-link-4{
+    font-size: 15px;
+    width: 50px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 4px;
+  }
+  .nav-right{
+    margin-left: 270px;
+  }
+  .search{
+    display: none;
+  }
+  .avatar{
+    width: 30px;
+    height: 30px;
+  }
+  .section-1-text h2{
+    font-size:32px;
+  }
+  .section-1-text p{
+    font-size: 15px;
+    width: 340px;
+    line-height: 1.3rem;
+  }
+  .appointment-link{
+    width: 200px;
+    height: 25px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto 6px;
+  }
   /* section-2 */
   .section-2{
     padding: 0;
@@ -1998,7 +2073,20 @@ label{
     letter-spacing: 1px;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: auto 6px;
+  }
+  .section-1-box{
+    width: 300px;
+  }
+  .section-1-box h2{
+    margin-top: 30px;
+    font-size: 30px;
+  }
+  .open-hours-1 p,
+  .open-hours-2 p,
+  .open-hours-3 p{
+    font-size: 15px;
   }
   /* section-6 */
   .section-6{
@@ -2129,12 +2217,6 @@ label{
     top: -42px;
   }
   /* section-9 */
-  .first-container{
-
-  }
-  .logo-footer{
-    
-  }
   .logo-footer-img{
     width: 60px;
     height: 60px;
@@ -2157,11 +2239,11 @@ label{
   .footer-box p{
     font-size: 15px;
     width: 190px;
-    padding-right: 30px;
+    padding-right: 20px;
     text-align: right;
   }
   .hr-3{
-    width: 165px;
+    width: 170px;
     margin-right: 50px;
   }
   .footer-link-left a{
