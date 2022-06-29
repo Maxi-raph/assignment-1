@@ -1602,9 +1602,6 @@ label{
     width: 600px;
   }
   /* section-4 */
-  .section-4{
-    background-color: blue;
-  }
   .services{
     grid-template-columns: repeat(2,1fr);
     gap: 80px 280px;
@@ -1694,6 +1691,7 @@ label{
     padding-top: 60px;
   }
   .spa-1,
+  .spa-2,
   .spa-3{
    display: none;
   }
@@ -1718,7 +1716,6 @@ label{
   }
  /* section-3 */
   .section-3{
-    background-color: red;
     margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 130px;
@@ -1760,18 +1757,18 @@ label{
   }
   /* section-4 */
    .services{
-    gap: 180px 0px;
-    grid-template-columns: repeat(1,1fr);
+    gap: 180px 260px;
+    grid-template-columns: repeat(2,1fr);
    }
    .service-img-1,
    .service-img-2,
    .service-img-3,
    .service-img-4{
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
    }
    .services button{
-    width: 250px;
+    width: 220px;
     height: 50px;
    }
    /* section-5 */
@@ -1817,52 +1814,89 @@ label{
     border-radius: 0%;
   }
 }
-@media (max-width:480px){
+@media(max-width:750px){
+  /* section-4 */
+  .services{
+    gap: 180px 260px;
+    grid-template-columns: repeat(1,1fr);
+   }
+}
+@media screen and (max-width:375px){
   /* section-2 */
+  .section-2{
+    padding: 0;
+    display: block;
+  }
+  .section-2-text{
+    width: 100%;
+    padding-left: 0px;
+    margin-right: 10px;
+  }
   .section-2-text h2{
-    font-size: 16px;
+    font-size: 18px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 0px;
   }
   .section-2-text p{
     font-size: 10px;
-    width: 200px;
+    width: 300px;
     line-height: 1rem;
+    margin-left: 0px;
   }
   /* section-3 */
   .text-box{
-    width: 190px;
+    width: 250px;
     height: fit-content;
   }
   .discount-text{
+    width: 250px;
     margin: 0;
     padding-left: 10px;
   }
   .first-paragraph{
     font-size: 16px;
-    width: 170px;
+    width: 220px;
+    margin-left: 13px;
   }
-  .second-paragraph,
-  .third-paragraph{
-    font-size: 8px;
-    width: 150px;
+  .second-paragraph{
+    font-size: 9px;
+    width: 210px;
     line-height: 1rem;
+    padding-left: 0px;
+    margin-left: 13px;
+  }
+  .third-paragraph{
+    font-size: 9px;
+    width: 210px;
+    line-height: 1rem;
+    padding-left: 0px;
+    margin-left: 4px;
+  }
+  .third-paragraph-container{
+    margin-left: 13px;
   }
   .circle{
-    display: none;
+    width: 7px;
+    height: 7px;
+    margin-right: 1px;
   }
   .submit-input{
-    width: 140px;
-    height: 30px;
-    font-size: 8px;
+    width: 160px;
+    height: 25px;
+    font-size: 9px;
     border-radius: 10px;
     display: block;
+    margin-left: 16px;
+    padding-left: 8px;
   }
   .submit-btn{
-      width: 70px;
-      height: 30px;
+      width: 90px;
+      height: 25px;
       border-radius: 10px;
       display: block;
-      margin-left: 40px;
-      font-size: 8px;
+      margin-left: 60px;
+      font-size: 9px;
   }
   /* section-4 */
   .section-4 h3{
@@ -1870,55 +1904,86 @@ label{
   }
   .services{
     gap: 60px;
+    grid-template-columns: repeat(2,1fr);
   }
   .service-img-1,
   .service-img-2,
   .service-img-3,
   .service-img-4{
-    width: 130px;
-    height: 130px;
-    border: 8px solid #FFACAC;
+    width: 110px;
+    height: 110px;
+    border: 6px solid #FFACAC;
   }
   .service-1 p,
   .service-2 p,
-  .service-3 p,
+  .service-3 p{
+    font-size: 12px;
+  }
   .service-4 p{
     font-size: 12px;
+    width: 120px;
   }
   .service-1 button,
   .service-2 button,
   .service-3 button{
-    width: 130px;
-    height: 30px;
-    font-size: 12px;
+    width: 90px;
+    height: 25px;
+    font-size: 9px;
     border: 3px solid white;
   }
   .service-4 button{
-    width: 130px;
-    height: 30px;
-    font-size: 12px;
+    width: 90px;
+    height: 25px;
+    font-size: 9px;
     border: 3px solid white;
-    margin-top: 15px;
+    margin-top: 13px;
   }
   /* section-5 */
   .appointment-container{
-    width: 200px;
+    width: 300px;
+    border-radius: 10px;
   }
   .appointment-box h3{
     font-size: 19px;
+    margin-bottom: 10px;
   }
   .name-input{
-    width: 140px;
+    width: 250px;
     height: 30px;
     font-size: 12px;
     display: block;
     border-radius: 10px;
   }
-  .name-input{
-    width: 140px;
+  .email-tel-input{
+    width: 250px;
     height: 30px;
     font-size: 12px;
     display: block;
     border-radius: 10px;
+  }
+  .date-time{
+    width: 250px;
+  }
+  .date-input{
+    width: 125px;
+    height: 30px;
+    font-size: 9px;
+    border-radius: 10px;
+  }
+  .time-input{
+    width: 105px;
+    height: 30px;
+    font-size: 9px;
+    border-radius: 10px;
+    margin-left: 16px;
+  }
+  .appointment-link-2{
+    width: 200px;
+    height: 25px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    padding: auto 6px;
   }
 }
