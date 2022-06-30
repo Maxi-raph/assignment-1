@@ -1950,7 +1950,7 @@ label{
   .nav-right{
     width: 0px;
     display: block;
-    margin-left: 254px
+    margin-left: 260px
   }
   .search{
     display: none;
@@ -2139,6 +2139,7 @@ label{
     height: 35px;
     font-size: 9px;
     border-radius: 10px;
+    padding-right: 6px;
   }
   .time-input{
     width: 105px;
@@ -2146,6 +2147,7 @@ label{
     font-size: 9px;
     border-radius: 10px;
     margin-left: 16px;
+    padding-right: 6px;
   }
   .appointment-link-2{
     width: 200px;
