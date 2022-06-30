@@ -1814,12 +1814,88 @@ label{
     border-radius: 0%;
   }
 }
+@media(max-width:830px){
+  /* section-1 */
+  nav ul{
+    font-size: 14px;
+  }
+  nav ul li a{
+    padding: 0px;
+    margin-left: 9px;
+  }
+  .logo-area p{
+    font-size: 15px;
+  }
+  .logo{
+    width: 40px;
+    height: 40px;
+  }
+  .search{
+    width: 30px;
+    height: 30px;
+  }
+  .avatar{
+    width: 40px;
+    height: 40px;
+  }
+}
 @media(max-width:750px){
   /* section-4 */
   .services{
     gap: 180px 260px;
     grid-template-columns: repeat(1,1fr);
    }
+}
+@media(max-width:640px){
+ /* section-1 */
+  .section-1-text h2{
+    font-size: 53px;
+  }
+  .section-1-text p{
+    font-size: 18px;
+  }
+  .section-1-box{
+    width: 460px;
+  }
+  .section-1-box h2{
+    margin-top: 30px;
+    font-size: 30px;
+  }
+  .section-1-box p{
+    font-size: 17px;
+  }
+}
+@media(max-width:590px){
+  /* section-1 */
+  .logo-area{
+    margin-left: 20px;
+  }
+  .logo-area p{
+    font-size: 13px;
+  }
+  nav {
+    position: relative;
+  }
+  nav ul{
+    position:absolute;
+    top: 30px;
+    left: 80px;
+  }
+  nav ul li a{
+    font-size: 13px;
+  }
+  .nav-right{
+    width: 100px;
+  }
+  .search{
+    width: 20px;
+    height: 20px;
+  }
+  .avatar{
+    width: 30px;
+    height: 30px;
+  }
+
 }
 @media screen and (max-width:480px){
   /* section-1 */
@@ -1845,34 +1921,36 @@ label{
     left: 27px;
   }
   .nav-link-1{
-    font-size: 15px;
+    font-size: 12px;
     width: 90px;
     margin: 0px;
     padding: 0px;
   }
   .nav-link-2{
-    font-size: 15px;
+    font-size: 12px;
     width: 70px;
     margin: 0px;
     padding: 0px;
     margin-left: 4px;
   }
   .nav-link-3{
-    font-size: 15px;
+    font-size: 12px;
     width: 30px;
     margin: 0px;
     padding: 0px;
     margin-left: 4px;
   }
   .nav-link-4{
-    font-size: 15px;
+    font-size: 12px;
     width: 50px;
     margin: 0px;
     padding: 0px;
     margin-left: 4px;
   }
   .nav-right{
-    margin-left: 260px;
+    width: 0px;
+    display: block;
+    margin-left: 250px;
   }
   .search{
     display: none;
