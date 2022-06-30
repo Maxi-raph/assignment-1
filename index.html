@@ -12,7 +12,8 @@
     <link href='EB Garamond.css' rel='stylesheet' type='./style.css'>
 </head>   
 <body>
-    <main class="main-container">
+    <main>
+    <header class="main-container">
     <nav>
         <div class="logo-area">
             <div class="logo">
@@ -35,15 +36,14 @@
             </div>
         </div>
     </nav>
-    <section class="section-1">
+    <div class="section-1">
         <div class="section-1-text">
             <h2>Unwind Spa</h2>
             <p>Relax, let go and have all your beauty, skin and body needs catered to.</p>
-            <a href="#" class="appointment-link">Book Appointment</a>
+            <button class="appointment-btn">Book Appointment</button>
         </div>
         <div class="section-1-box">
             <h2>Opening Hours</h2>
-            <hr class="hr-1">
             <div class="open-hours-1">
                 <p class="days">Monday - Wednesday</p>
                 <p class="hours">9am - 7pm</p>
@@ -57,8 +57,8 @@
                 <p class="hours">Day Off</p>
             </div>
         </div>
-    </section>
-    </main>
+    </div>
+    </header>
     <section class="section-2">
             <div class="spa-images">
                 <div class="spa-1">
@@ -73,7 +73,6 @@
             </div>
             <div class="section-2-text">
                 <h2>Pampered To Perfection</h2>
-                <hr class="hr-2">
                 <p>
                     Unwind spa is the number one place to enjoy world class treatment and premium services, in a peaceful, calm and tranquil environment designed to bring you the sought after peace and rest of mind, body and soul.
                 </p>
@@ -88,7 +87,6 @@
                 <p class="first-paragraph">Get <b>15% discount</b> on your first visit</p>
                 <p class="second-paragraph">Leave us  your email address or phone number and we will get back to you</p>
                 <div class="third-paragraph-container">
-                    <div class="circle"></div>
                     <p class="third-paragraph">Get further deals, promotions and  updates</p>
                 </div>
                 <div class="submit">
@@ -97,10 +95,9 @@
                 </div>
             </div>
             <div class="spa-4">
-                <img src="./Mentorship Projects/Rectangle 15.png" alt="A spa costumer">
+                <img src="./Mentorship Projects/Rectangle 15.png" alt="A spa customer">
             </div>
         </div>
-        <div class="text-box-2"></div>
     </section>
     <section class="section-4">
         <h3>Our Services</h3>
@@ -114,14 +111,14 @@
             </div>
             <div class="service-2">
                 <div class="service-img-2">
-                    <img src="./Mentorship Projects/Ellipse 150.png" alt="A costumer getting facial treatment">
+                    <img src="./Mentorship Projects/Ellipse 150.png" alt="A customer getting facial treatment">
                 </div>
                 <p>Facials</p>
                 <button type="submit">More</button>
             </div>
             <div class="service-3">
                 <div class="service-img-3">
-                    <img src="./Mentorship Projects/Ellipse 151.png" alt="A cosutumer getting face lotion applied">
+                    <img src="./Mentorship Projects/Ellipse 151.png" alt="A customer getting face lotion applied">
                 </div>
                 <p>Peels and Wraps</p>
                 <button type="submit">More</button>
@@ -138,7 +135,7 @@
     <section class="section-5">
         <div class="appointment-container">
             <div class="appointment-img">
-                <img src="./Mentorship Projects/Rectangle 19.png" alt="A spa costumer">
+                <img src="./Mentorship Projects/Rectangle 19.png" alt="A spa customer">
             </div>
             <div class="appointment-box">
                 <h3>Book Appointment</h3>
@@ -146,7 +143,7 @@
                     <input type="text-" name="Full Name" class="name-input" placeholder="Full Name">
                 </label>
                 <label for="Email/Tel">
-                    <input type="email tel" name="Email/Tel" class="email-tel-input" placeholder="Enter email adrress/phone number">
+                    <input type="email tel" name="Email/Tel" class="email-tel-input" placeholder="Enter email address/phone number">
                 </label>
                 <div class="date-time">
                     <label for="Date">
@@ -156,7 +153,7 @@
                         <input type="time" name="Time" class="time-input">
                     </label>
                 </div>  
-                <a href="#" class="appointment-link-2">Book Appointment</a>
+                <button href="#" class="appointment-btn-2">Book Appointment</button>
             </div>
         </div>
     </section>
@@ -210,16 +207,16 @@
                 <a href="#">Ada</a>
             </div>
             <div class="specialists-box-3">
-                <a href="#">Obinna</a>
                 <div class="specialist-3">
                     <img src="./Mentorship Projects/unsplash_2EGNqazbAMk.png" alt="A specialist">
                 </div> 
+                <a href="#">Obinna</a>
             </div>
             <div class="specialists-box-4">
-                <a href="#">Michael</a>
                 <div class="specialist-4">
                     <img src="./Mentorship Projects/unsplash_763-mBawsfg.png" alt="A specialist">
                 </div>
+                <a href="#">Michael</a>
             </div>
         </div>
     </section>
@@ -279,8 +276,8 @@
                 <p>3b, Park Street, Victoria Island, Lagos</p>
             </div>
             </div>
-            <hr class="hr-4">
             <div class="second-container">
+            <div class="footer-links">
                 <div>
                     <div class="footer-link-left">
                         <a href="#">Reschedule</a>    
@@ -304,12 +301,15 @@
                     </div>
                 </div>
             </div>
-            <hr class="hr-5">
-            <div class="footer-bottom">
-                <p>Copyright &copy 2021 Unwind Spa</p>
+            </div>
+            <div class="footer-bottom-container">
+                <div class="footer-bottom">
+                    <p>Copyright &copy 2021 Unwind Spa</p>
+                </div>
             </div>
         </div>
     </footer>
+    </main>
 </body>
 </html>
 
