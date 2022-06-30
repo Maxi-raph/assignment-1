@@ -1945,7 +1945,7 @@ label{
     width: 50px;
     margin: 0px;
     padding: 0px;
-    margin-left: 4px;
+    margin-left: 2px;
   }
   .nav-right{
     width: 0px;
@@ -1956,8 +1956,7 @@ label{
     display: none;
   }
   .avatar{
-    width: 25px;
-    height: 25px;
+    display: none;
   }
   .section-1-text h2{
     font-size:32px;
