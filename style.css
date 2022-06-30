@@ -1950,7 +1950,7 @@ label{
   .nav-right{
     width: 0px;
     display: block;
-    margin-left: 250px
+    margin-left: 260px
   }
   .search{
     display: none;
@@ -2107,7 +2107,7 @@ label{
   }
   /* section-5 */
   .appointment-box{
-    width: 375px;
+    width: 300px;
   }
   .appointment-container{
     width: 280px;
