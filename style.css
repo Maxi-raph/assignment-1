@@ -1908,16 +1908,16 @@ label{
     margin-left: 10px;
   }
   .logo{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
   }
   .logo-area p{
-    font-size:10px;
+    font-size:5px;
     width: 60px;
   } 
   nav ul{
     position: absolute;
-    top: 16px;
+    top: 25px;
     left: 27px;
   }
   .nav-link-1{
@@ -1950,13 +1950,14 @@ label{
   .nav-right{
     width: 0px;
     display: block;
-    margin-left: 260px
+    margin-left: 254px
   }
   .search{
     display: none;
   }
   .avatar{
-    display: none;
+    width: 26px;
+    height: 26px;
   }
   .section-1-text h2{
     font-size:32px;
