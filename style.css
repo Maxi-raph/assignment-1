@@ -1917,11 +1917,15 @@ label{
   } 
   nav ul{
     position: absolute;
-    top: 20px;
+    top: 16px;
     left: 27px;
   }
   .nav-link-1{
+<<<<<<< HEAD
     font-size: 12px;
+=======
+    font-size: 14px;
+>>>>>>> cef3cdc2ded6520d81e83e38a21b11e445bbdb5e
     width: 90px;
     margin: 0px;
     padding: 0px;
@@ -1950,14 +1954,14 @@ label{
   .nav-right{
     width: 0px;
     display: block;
-    margin-left: 250px;
+    margin-left: 250px
   }
   .search{
     display: none;
   }
   .avatar{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
   }
   .section-1-text h2{
     font-size:32px;
