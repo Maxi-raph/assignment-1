@@ -1355,6 +1355,9 @@ label{
   margin-top: 30px;
   color: white;
 }
+@media(min-width:1440px){
+  
+}
 @media(max-width:1320px){
   /* section-3 */
   .discount-text{
@@ -1698,6 +1701,7 @@ label{
     margin-bottom: 30px;
     padding-top: 0px;
     padding-bottom: 40px;
+    width: 100%;
   }
   .first-paragraph{
     width: 90%;
@@ -1989,7 +1993,9 @@ label{
     margin-top: 80px;
     text-align: center;
   }
-  
+  .footer-links a{
+    font-size: 16px;
+  }
 }
 @media(max-width:680px){
   /* section-6 */
@@ -2105,7 +2111,7 @@ label{
   nav ul{
     position: absolute;
     top: 25px;
-    left: 27px;
+    left: 30px;
   }
   .nav-link-1{
     font-size: 12px;
@@ -2135,12 +2141,13 @@ label{
     margin-left: 2px;
   }
   .nav-right{
-    width: 0px;
-    display: block;
-    margin-left: 260px
+    width: 70px;
+    display: flex;
+    margin-left: 280px
   }
   .search{
-    display: none;
+    width: 26px;
+    height: 26px;
   }
   .avatar{
     width: 26px;
@@ -2512,6 +2519,7 @@ label{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
   .footer-box span{
     font-size: 15px;
@@ -2540,6 +2548,19 @@ label{
   }
   .footer-bottom p{
     font-size: 15px;
+  }
+}
+@media(max-width:444px){
+  nav ul{
+    border-left-style: 27px;
+  }
+  .nav-right{
+    width: 0px;
+    display: block;
+    margin-left: 260px;
+  }
+  .search{
+    display: none;
   }
 }
 
