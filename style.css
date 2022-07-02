@@ -616,6 +616,7 @@ nav ul li a{
   border-radius:64px 0% 0% 0%;
   position: relative;
   height: 550px;
+  background-color: transparent;
 }
 .appointment-img{
   width: 510px;
@@ -639,6 +640,7 @@ nav ul li a{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: transparent;
 }
 .appointment-box h3{
   color: white;
@@ -1254,8 +1256,1188 @@ label{
   margin-top: 30px;
   color: white;
 }
-@media(min-width:1440px){
-  
+@media(min-width:3000px) and (max-width:9999px){
+   /* section-1 */
+   .main-container{
+    height: 100vh;
+  }
+    nav{
+      justify-content: space-around;
+      padding-top: 50px;
+    }
+    nav ul{
+      position: unset;
+    }
+    nav ul li{
+      font-size: 60px;
+      margin-left: 40px;
+    }
+    .logo{
+      width: 140px;
+      height: 140px;
+    }
+    .logo-area p{
+      font-size: 60px;
+    }
+    .nav-right{
+      width: 10%;
+    }
+    .search{
+      width: 120px;
+      height: 120px;
+    }
+    .avatar{
+      width: 120px;
+      height: 120px;
+    }
+    .section-1{
+      justify-content: space-evenly;
+      margin-top: 500px;
+    }
+    .section-1-text{
+      width: 40%;
+      height: fit-content;
+    }
+    .section-1-text h2{
+      font-size:300px;
+    }
+    .section-1-text p{
+      font-size: 74px;
+      line-height: 6rem;
+      width: 90%;
+    }
+    .section-1-box{
+      width: 40%;
+      height: 1000px;
+      margin-top: 100px;
+    }
+    .appointment-btn{
+      width: 750px;
+      height: 160px;
+      border-radius: 20px;
+      font-size: 64px;
+    }
+    .section-1-box h2{
+      font-size: 140px;
+    }
+    .section-1-box h2::after{
+      width: 260px;
+      height: 10px;
+      margin-left: 960px;
+    }
+    .open-hours-1 p,
+    .open-hours-2 p,
+    .open-hours-3 p{
+      margin-top: 100px;
+      font-size: 74px;
+    }
+    .days{
+      padding-left: 80px;
+    }
+    /* section-2 */
+    .section-2{
+      justify-content: space-around;
+      height: 100vh;
+    }
+    .spa-1{
+      width: 900px;
+      height: 900px;
+      transform: translateY(280px);
+    }
+    .spa-2{
+      width: 900px;
+      height: 900px;
+      transform: translate(460px);
+    }
+    .spa-3{
+      width: 900px;
+      height: 900px;
+      transform: translateY(-280px);
+    }
+    .section-2-text{
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 80px;
+    }
+    .section-2-text h2{
+      width: 100%;
+      font-size: 200px;
+    }
+    .section-2-text h2::after{
+      width: 800px;
+      height: 9px;
+      margin-left: 680px;
+    }
+    .section-2-text p{
+      width: 90%;
+      font-size:80px;
+      line-height: 7rem;
+      text-align: center;
+    }
+    /* section-3 */
+    .section-3{
+      height: 100vh;
+    }
+    .text-box{
+      height:1500px;
+      margin-top:400px;
+    }
+    .text-box::before{
+      top:80px;
+      left:70px;
+    }
+    .discount-text{
+      width: 70%;
+      padding-left: 30px;
+      padding-top: 120px;
+    }
+    .first-paragraph{
+      width:100%;
+      font-size: 220px;
+    }
+    .second-paragraph{
+      width: 90%;
+      font-size: 89px;
+      line-height: 7.4rem;
+    }
+    .third-paragraph{
+      width: 90%;
+      font-size: 89px;
+      line-height: 7.4rem;
+      margin-top: 40px;
+    }
+    .third-paragraph::before{
+      width:89px;
+      height: 89px;
+      margin-right:20px;
+    }
+    .submit{
+      margin-top: 100px;
+      width: 90%;
+    }
+    .submit-input{
+      width: 60%;
+      height: 160px;
+      font-size: 80px;
+      border-radius:20px 0px 0px 20px;
+    }
+    .submit-btn{
+      width: 40%;
+      height: 160px;
+      font-size: 80px;
+      border-radius:0px 20px 20px 0px;
+    }
+    .spa-4{
+      width: 28%;
+      height:1500px;
+      object-fit:cover;
+    }
+    /* section-4 */
+    .section-4{
+      height: 100vh;
+      padding-top: 200px;
+    }
+    .section-4 h3{
+      font-size: 200px;
+      margin-bottom: 150px;
+    }
+    .services{
+      gap: 0px 500px;
+      margin-top: 200px;
+    }
+    .service-img-1,
+    .service-img-2,
+    .service-img-3,
+    .service-img-4{
+      width: 800px;
+      height: 800px;
+      border: 20px solid #FFACAC;
+    }
+    .services p{
+      font-size: 80px;
+    }
+    .service-1 button{
+      font-size:80px;
+      width: 750px;
+      height: 160px;
+      margin-top: 70px;
+      border: 10px solid white;
+      border-radius: 20px;
+    }
+    .service-2 button{
+      font-size:80px;
+      width: 750px;
+      height: 160px;
+      margin-top: 70px;
+      border: 10px solid rgb(236, 236, 236);
+      border-radius: 20px;
+    }
+    .service-3 button{
+      font-size:80px;
+      width: 750px;
+      height: 160px;
+      margin-top: 70px;
+      border: 10px solid rgb(236, 236, 236);
+      border-radius: 20px;
+    }
+    .service-4 p{
+      width: 800px;
+    }
+    .service-4 button{
+      margin-top: 0px;
+      font-size:80px;
+      width: 750px;
+      height: 160px;
+      border: 10px solid rgb(236, 236, 236);
+      border-radius: 20px;
+    }
+    /* section-5 */
+    .section-5{
+      height: 100vh;
+    }
+    .appointment-container{
+      height: fit-content;
+      justify-content: space-evenly;
+      border-radius: 40px 0 0 0;
+      position: unset;
+    }
+    .appointment-img{
+      width: 40%;
+      height: 1600px;
+      position: unset;
+    }
+    .appointment-img img{
+      border-radius: 40px 0 40px 0;
+    }
+    .appointment-box{
+      width: 60%;
+      position: unset;
+      padding-top: 120px;
+    }
+    .appointment-box h3{
+      font-size:200px;
+      margin-bottom: 20px;
+    }
+    label{
+      width: 70%;
+      margin-top: 100px;
+    }
+    .name-input{
+      width: 100%;
+      height:160px;
+      font-size: 80px;
+    }
+    .email-tel-input{
+      width: 100%;
+      height:160px;
+      font-size: 80px;
+    }
+    .date-time{
+      width: 70%;
+      height:160px;
+      margin-top: 100px;
+    }
+    .date-input{
+      width: 60%;
+      height:160px;
+      font-size: 80px;
+    }
+    .time-input{
+      width: 37%;
+      height:160px;
+      font-size: 80px;
+      margin-left: 48px;
+    }
+    .appointment-btn-2{
+      width: 750px;
+      height: 160px;
+      border-radius: 20px;
+      font-size: 64px;
+      margin-top: 140px;
+    }
+    /* section-6 */
+    .section-6{
+      height: 100vh;
+      margin-top: 400px;
+    }
+    .reviews-container h3{
+      font-size: 200px;
+    }
+    .see-all p{
+      font-size: 80px;
+    }
+    .see-all img{
+      margin-top: 10px;
+      width: 80px;
+      height: 80px;
+    }
+    .first-quote,
+    .second-quote{
+      width: 100px;
+      height:100px;
+    }
+    .quote-text-1,
+    .quote-text-2,
+    .quote-text-3{
+      width: 1400px;
+      height: 1400px;
+    }
+    .quote-text-container p{
+      font-size:80px;
+      width:80%;
+      line-height: 7rem;
+    }
+    /* section-7 */
+    .section-7{
+      height: 100vh;
+    }
+    .section-7 h3{
+      font-size:200px;
+    }
+    .specialists-container{
+      width: fit-content;
+      height: fit-content;
+    }
+    .specialists-box-1,
+    .specialists-box-2,
+    .specialists-box-3,
+    .specialists-box-4{
+      width: 1200px;
+      height: 900px;
+    }
+    .specialist-1,
+    .specialist-2,
+    .specialist-3,
+    .specialist-4{
+      width: 900px;
+      height: 600px;
+    }
+    .specialists-box-1 a,
+    .specialists-box-2 a,
+    .specialists-box-3 a,
+    .specialists-box-4 a{
+      font-size:80px;
+    }
+    /* section-8 */
+    .section-8{
+      height: 100vh;
+    }
+    .section-8 h3{
+      font-size: 200px;
+    }
+    .section-8-box-1,
+    .section-8-box-2{
+      margin-top: 20px;
+      width: 1500px;
+      height: 1950px;
+    }
+    .blog-img-1,
+    .blog-img-2{
+      width: 1400px;
+      height:700px;
+    }
+    .section-8-box-1 p,
+    .section-8-box-2 p{
+      font-size: 70px;
+      line-height: 7rem;
+      width: 85%;
+    }
+    .section-8-box-1 h4,
+    .section-8-box-2 h4{
+      font-size:120px;
+      width: 90%;
+    }
+    .see-more p{
+      font-size:80px;
+    }
+    .see-more img{
+      width: 80px;
+      height: 80px;
+      margin-top: 10px;
+    }
+    /* section-9 */
+    .logo-footer-img{
+      width: 80px;
+      height:80px;
+    }
+    .footer-box{
+      width: 40%;
+    }
+    .footer-box p,
+    .footer-box span{
+      font-size: 80px;
+    }
+    .footer-links a{
+      font-size:80px;
+    }
+    .footer-bottom p{
+      font-size: 80px;
+    }
+}
+@media(min-width:2900px) and (max-width:3000px){
+  /* section-1 */
+  .main-container{
+    height: 100vh;
+  }
+    nav{
+      justify-content: space-around;
+    }
+    nav ul{
+      position: unset;
+    }
+    nav ul li{
+      font-size: 46px;
+      margin-left: 40px;
+    }
+    .logo{
+      width: 120px;
+      height: 120px;
+    }
+    .logo-area p{
+      font-size: 46px;
+    }
+    .nav-right{
+      width: 8%;
+    }
+    .search{
+      width: 80px;
+      height: 80px;
+    }
+    .avatar{
+      width: 80px;
+      height: 80px;
+    }
+    .section-1{
+      justify-content: space-evenly;
+      margin-top: 500px;
+    }
+    .section-1-text{
+      width: 40%;
+      height: fit-content;
+    }
+    .section-1-text h2{
+      font-size:200px;
+    }
+    .section-1-text p{
+      font-size: 54px;
+      line-height: 6rem;
+      width: 90%;
+    }
+    .section-1-box{
+      width: 40%;
+      margin-top: 100px;
+    }
+    .appointment-btn{
+      width: 550px;
+      height: 120px;
+      border-radius: 20px;
+      font-size: 46px;
+    }
+    .section-1-box h2{
+      font-size: 110px;
+    }
+    .section-1-box h2::after{
+      width: 200px;
+      height: 8px;
+      margin-left: 730px;
+    }
+    .open-hours-1 p,
+    .open-hours-2 p,
+    .open-hours-3 p{
+      font-size: 62px;
+    }
+    /* section-2 */
+    .section-2{
+      justify-content: space-around;
+      height: 100vh;
+    }
+    .spa-1{
+      width: 650px;
+      height: 650px;
+      transform: translateY(180px);
+    }
+    .spa-2{
+      width: 650px;
+      height: 650px;
+      transform: translate(220px);
+    }
+    .spa-3{
+      width: 650px;
+      height: 650px;
+      transform: translateY(-180px);
+    }
+    .section-2-text{
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 80px;
+    }
+    .section-2-text h2{
+      width: 100%;
+      font-size: 108px;
+    }
+    .section-2-text h2::after{
+      width: 480px;
+      height: 8px;
+      margin-left: 550px;
+    }
+    .section-2-text p{
+      width: 90%;
+      font-size: 54px;
+      line-height: 5rem;
+      text-align: center;
+    }
+    /* section-3 */
+    .section-3{
+      height: 100vh;
+    }
+    .text-box{
+      height:1000px;
+      margin-top:400px;
+    }
+    .text-box::before{
+      top:60px;
+      left:40px;
+    }
+    .discount-text{
+      width: 70%;
+      padding-left: 30px;
+      padding-top: 120px;
+    }
+    .first-paragraph{
+      width:100%;
+      font-size: 150px;
+    }
+    .second-paragraph{
+      width: 90%;
+      font-size: 62px;
+      line-height: 5.4rem;
+    }
+    .third-paragraph{
+      width: 90%;
+      font-size: 62px;
+      line-height: 5.4rem;
+      margin-top: 40px;
+    }
+    .third-paragraph::before{
+      width:62px;
+      height: 62px;
+      margin-right:20px;
+    }
+    .submit{
+      margin-top: 80px;
+      width: 90%;
+    }
+    .submit-input{
+      width: 60%;
+      height: 120px;
+      font-size: 54px;
+      border-radius:20px 0px 0px 20px;
+    }
+    .submit-btn{
+      width: 40%;
+      height: 120px;
+      font-size: 54px;
+      border-radius:0px 20px 20px 0px;
+    }
+    .spa-4{
+      width: 25%;
+      height:1000px;
+      object-fit:cover;
+    }
+    /* section-4 */
+    .section-4{
+      height: 100vh;
+      padding-top: 200px;
+    }
+    .section-4 h3{
+      font-size: 108px;
+      margin-bottom: 150px;
+    }
+    .services{
+      gap: 0px 300px;
+      margin-top: 100px;
+    }
+    .service-img-1,
+    .service-img-2,
+    .service-img-3,
+    .service-img-4{
+      width: 600px;
+      height: 600px;
+      border: 16px solid #FFACAC;
+    }
+    .services p{
+      font-size: 54px;
+    }
+    .service-1 button{
+      font-size:54px;
+      width: 500px;
+      height: 120px;
+      margin-top: 47px;
+      border: 10px solid white;
+      border-radius: 20px;
+    }
+    .service-2 button{
+      font-size:54px;
+      width: 500px;
+      height: 120px;
+      margin-top: 47px;
+      border: 10px solid rgb(236, 236, 236);
+      border-radius: 20px;
+    }
+    .service-3 button{
+      font-size:54px;
+      width: 500px;
+      height: 120px;
+      margin-top: 47px;
+      border: 10px solid rgb(236, 236, 236);
+      border-radius: 20px;
+    }
+    .service-4 p{
+      width: 600px;
+    }
+    .service-4 button{
+      margin-top: 0px;
+      font-size:54px;
+      width: 500px;
+      height: 120px;
+      border: 10px solid rgb(236, 236, 236);
+      border-radius: 20px;
+    }
+    /* section-5 */
+    .section-5{
+      height: 100vh;
+    }
+    .appointment-container{
+      height: fit-content;
+      justify-content: space-evenly;
+      border-radius: 40px 0 0 0;
+      position: unset;
+    }
+    .appointment-img{
+      width: 40%;
+      height: 1200px;
+      position: unset;
+    }
+    .appointment-img img{
+      border-radius: 40px 0 40px 0;
+    }
+    .appointment-box{
+      width: 60%;
+      position: unset;
+      padding-top: 120px;
+    }
+    .appointment-box h3{
+      font-size:104px;
+      margin-bottom: 20px;
+    }
+    label{
+      width: 70%;
+      margin-top: 80px;
+    }
+    .name-input{
+      width: 100%;
+      height:120px;
+      font-size: 54px;
+    }
+    .email-tel-input{
+      width: 100%;
+      height:120px;
+      font-size: 54px;
+    }
+    .date-time{
+      width: 70%;
+      height:120px;
+      margin-top: 80px;
+    }
+    .date-input{
+      width: 60%;
+      height:120px;
+      font-size: 54px;
+    }
+    .time-input{
+      width: 37%;
+      height:120px;
+      font-size: 54px;
+      margin-left: 38px;
+    }
+    .appointment-btn-2{
+      width: 550px;
+      height: 120px;
+      border-radius: 20px;
+      font-size: 46px;
+    }
+    /* section-6 */
+    .section-6{
+      height: 100vh;
+      margin-top: 400px;
+    }
+    .reviews-container h3{
+      font-size: 108px;
+    }
+    .see-all p{
+      font-size: 54px;
+    }
+    .see-all img{
+      margin-top: 10px;
+      width: 54px;
+      height: 54px;
+    }
+    .first-quote,
+    .second-quote{
+      width: 80px;
+      height:80px;
+    }
+    .quote-text-1,
+    .quote-text-2,
+    .quote-text-3{
+      width: 1000px;
+      height: 1000px;
+    }
+    .quote-text-container p{
+      font-size:54px;
+      width:80%;
+      line-height: 5rem;
+    }
+    /* section-7 */
+    .section-7{
+      height: 100vh;
+    }
+    .section-7 h3{
+      font-size: 108px;
+    }
+    .specialists-container{
+      width: fit-content;
+      height: fit-content;
+    }
+    .specialists-box-1,
+    .specialists-box-2,
+    .specialists-box-3,
+    .specialists-box-4{
+      width: 900px;
+      height: 800px;
+    }
+    .specialist-1,
+    .specialist-2,
+    .specialist-3,
+    .specialist-4{
+      width: 700px;
+      height: 500px;
+    }
+    .specialists-box-1 a,
+    .specialists-box-2 a,
+    .specialists-box-3 a,
+    .specialists-box-4 a{
+      font-size:54px;
+    }
+    /* section-8 */
+    .section-8{
+      height: 100vh;
+    }
+    .section-8 h3{
+      font-size: 108px;
+    }
+    .section-8-box-1,
+    .section-8-box-2{
+      width: 1200px;
+      height: 1450px;
+    }
+    .blog-img-1,
+    .blog-img-2{
+      width: 1000px;
+      height:600px;
+    }
+    .section-8-box-1 p,
+    .section-8-box-2 p{
+      font-size: 54px;
+      line-height: 5rem;
+      width: 90%;
+    }
+    .section-8-box-1 h4,
+    .section-8-box-2 h4{
+      font-size:80px;
+      width: 90%;
+    }
+    .see-more p{
+      font-size:54px;
+    }
+    .see-more img{
+      width: 54px;
+      height: 54px;
+      margin-top: 10px;
+    }
+    /* section-9 */
+    .logo-footer-img{
+      width: 60px;
+      height:60px;
+    }
+    .footer-box{
+      width: 40%;
+    }
+    .footer-box p,
+    .footer-box span{
+      font-size: 54px;
+    }
+    .footer-links a{
+      font-size:54px;
+    }
+    .footer-bottom p{
+      font-size: 54px;
+    }
+}
+@media(min-width:2200px) and (max-width:2900px){
+    /* section-1 */
+    nav{
+      justify-content: space-around;
+    }
+    nav ul{
+      position: unset;
+    }
+    nav ul li{
+      font-size: 34px;
+    }
+    .logo{
+      width: 120px;
+      height: 120px;
+    }
+    .logo-area p{
+      font-size: 32px;
+    }
+    .search{
+      width: 60px;
+      height: 60px;
+    }
+    .avatar{
+      width: 60px;
+      height: 60px;
+    }
+    .section-1{
+      justify-content: space-evenly;
+    }
+    .section-1-text{
+      width: 1000px;
+      height: fit-content;
+    }
+    .section-1-text h2{
+      font-size:140px;
+    }
+    .section-1-text p{
+      font-size: 40px;
+      line-height: 4rem;
+      width: 90%;
+    }
+    .section-1-box{
+      width: 1000px;
+    }
+    .appointment-btn{
+      width: 390px;
+      height: 80px;
+      font-size: 32px;
+    }
+    .section-1-box h2{
+      font-size: 52px;
+    }
+    .section-1-box h2::after{
+      width: 130px;
+      height: 7px;
+      margin-left: 440px;
+    }
+    .open-hours-1 p,
+    .open-hours-2 p,
+    .open-hours-3 p{
+      font-size: 40px;
+    }
+    /* section-2 */
+    .section-2{
+      justify-content: space-around;
+    }
+    .spa-1{
+      width: 450px;
+      height: 450px;
+      transform: translateY(80px);
+    }
+    .spa-2{
+      width: 450px;
+      height: 450px;
+      transform: translate(100px);
+    }
+    .spa-3{
+      width: 450px;
+      height: 450px;
+      transform: translateY(-80px);
+    }
+    .section-2-text{
+      width: 1000px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 80px;
+    }
+    .section-2-text h2{
+      width: 100%;
+      font-size: 88px;
+    }
+    .section-2-text h2::after{
+      width: 400px;
+      height: 4px;
+      margin-left: 270px;
+    }
+    .section-2-text p{
+      width: 90%;
+      font-size: 32px;
+      line-height: 4rem;
+      text-align: center;
+    }
+    /* section-3 */
+    .text-box{
+      height: fit-content;
+    }
+    .discount-text{
+      width: 60%;
+      padding-left: 30px;
+      padding-top: 60px;
+    }
+    .first-paragraph{
+      width:100%;
+      font-size: 88px;
+    }
+    .second-paragraph,
+    .third-paragraph{
+      width: 90%;
+      font-size: 40px;
+      line-height: 4.2rem;
+    }
+    .submit{
+      width: 90%;
+    }
+    .submit-input{
+      width: 60%;
+      height: 80px;
+      font-size: 32px;
+    }
+    .submit-btn{
+      width: 40%;
+      height: 80px;
+      font-size: 32px;
+    }
+    .spa-4{
+      width: 25%;
+      height: 700px;
+      object-fit:cover;
+    }
+    /* section-4 */
+    .section-4 h3{
+      font-size: 86px;
+    }
+    .services{
+      gap: 0px 200px;
+    }
+    .service-img-1,
+    .service-img-2,
+    .service-img-3,
+    .service-img-4{
+      width: 400px;
+      height: 400px;
+    }
+    .services p{
+      font-size: 40px;
+    }
+    .services button{
+      font-size:32px;
+      width: 390px;
+      height: 80px;
+      margin-top: 16px;
+    }
+    .service-4 p{
+      width: 400px;
+    }
+    .service-4 button{
+      margin-top: 0px;
+      font-size:32px;
+      width: 390px;
+      height: 80px;
+    }
+    /* section-5 */
+    .appointment-container{
+      height: fit-content;
+      justify-content: space-evenly;
+      border-radius: 40px 0 0 0;
+      position: unset;
+    }
+    .appointment-img{
+      width: 40%;
+      height: 700px;
+      position: unset;
+    }
+    .appointment-img img{
+      border-radius: 40px 0 40px 0;
+    }
+    .appointment-box{
+      width: 60%;
+      position: unset;
+    }
+    .appointment-box h3{
+      font-size:86px;
+      margin-bottom: 20px;
+    }
+    label{
+      width: 70%;
+      margin-top: 50px;
+    }
+    .name-input{
+      width: 100%;
+      height:80px;
+      font-size: 32px;
+    }
+    .email-tel-input{
+      width: 100%;
+      height:80px;
+      font-size: 32px;
+    }
+    .date-time{
+      width: 70%;
+      height:80px;
+      font-size: 32px;
+      margin-top: 40px;
+    }
+    .date-input{
+      width: 60%;
+      height:80px;
+      font-size: 32px;
+    }
+    .time-input{
+      width: 37%;
+      height:80px;
+      font-size: 32px;
+      margin-left: 14px;
+    }
+    .appointment-btn-2{
+      font-size:32px;
+      width: 390px;
+      height: 80px;
+    }
+    /* section-6 */
+    .reviews-container h3{
+      font-size: 86px;
+    }
+    .see-all p{
+      font-size: 32px;
+    }
+    .see-all img{
+      width: 32px;
+      height: 32px;
+    }
+    .first-quote,
+    .second-quote{
+      width: 60px;
+      height:60px;
+    }
+    .quote-text-1,
+    .quote-text-2,
+    .quote-text-3{
+      width: 600px;
+      height: 600px;
+    }
+    .quote-text-container p{
+      font-size:32px;
+      width:80%;
+      line-height: 3rem;
+    }
+    /* section-7 */
+    .section-7 h3{
+      font-size: 86px;
+    }
+    .specialists-container{
+      width: fit-content;
+      height: fit-content;
+    }
+    .specialists-box-1,
+    .specialists-box-2,
+    .specialists-box-3,
+    .specialists-box-4{
+      width: 500px;
+      height: 400px;
+    }
+    .specialist-1,
+    .specialist-2,
+    .specialist-3,
+    .specialist-4{
+      width: 400px;
+      height: 300px;
+    }
+    .specialists-box-1 a,
+    .specialists-box-2 a,
+    .specialists-box-3 a,
+    .specialists-box-4 a{
+      font-size:32px;
+    }
+    /* section-8 */
+    .section-8 h3{
+      font-size: 86px;
+    }
+    .section-8-box-1,
+    .section-8-box-2{
+      width: 800px;
+      height: 950px;
+    }
+    .blog-img-1,
+    .blog-img-2{
+      width: 650px;
+      height:300px;
+    }
+    .section-8-box-1 p,
+    .section-8-box-2 p{
+      font-size: 32px;
+      line-height: 4rem;
+      width: 80%;
+    }
+    .section-8-box-1 h4,
+    .section-8-box-2 h4{
+      font-size:60px;
+      width: 85%;
+    }
+    .see-more p{
+      font-size:32px;
+    }
+    .see-more img{
+      width: 32px;
+      height: 32px;
+    }
+    /* section-9 */
+    .logo-footer-img{
+      width: 40px;
+      height:40px;
+    }
+    .footer-box{
+      width: 40%;
+    }
+    .footer-box p,
+    .footer-box span{
+      font-size: 32px;
+    }
+    .footer-links a{
+      font-size:32px;
+    }
+    .footer-bottom p{
+      font-size: 32px;
+    }
+}
+@media(min-width:1500px) and (max-width:2200px){
+  /* section-1 */
+  .section-1{
+    justify-content: space-around;
+  }
+  /* section-2 */
+  .section-2{
+    justify-content: space-around;
+  }
+  /* section-4 */
+  .services{
+    gap:0px 100px;
+  }
 }
 @media(max-width:1320px){
   /* section-3 */
